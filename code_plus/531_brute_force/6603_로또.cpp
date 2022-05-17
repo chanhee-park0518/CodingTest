@@ -35,9 +35,9 @@ int main(){
         if (n == 0)
             break;
 
-        fill(choice.begin(), choice.end(), MAX_NUMBER);
-        fill(arr.begin(), arr.end(), MAX_NUMBER);
-        fill(input.begin(), input.end(), MAX_NUMBER);
+        fill(choice.begin(), choice.end(), 0);
+        fill(arr.begin(), arr.end(), 0);
+        fill(input.begin(), input.end(), 0);
 
         for (int i = 1; i <= n; i++)
             cin>>input[i];
